@@ -30,6 +30,7 @@ jobs:
           channel: 'stable'
       - run: dart --version
       - run: flutter --version
+      - run: flutter doctor --android-licenses
       - run: flutter doctor -v
       - run: flutter pub get
       - run: flutter test
